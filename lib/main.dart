@@ -4,7 +4,7 @@ import 'server.dart';
 
 void main() => runApp(MaterialApp(
   //debugShowCheckedModeBanner: false,
-  home: HomeClient()
+  home: HomeClient() //
   //home: HomeServer()
 ));
 
