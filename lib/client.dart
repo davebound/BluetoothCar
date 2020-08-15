@@ -19,7 +19,7 @@ class HomeClient extends StatelessWidget {
 
       body: Center(
           child: Container(
-              color: Colors.amber,
+              color: Colors.blue,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
