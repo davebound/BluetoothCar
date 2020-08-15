@@ -17,19 +17,23 @@ class HomeServer extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
 
-      body: Center(
-          child: FlatButton(
-              onPressed: () {
-                print('console msg');
-              },
-              child: Text(
-                'button text',
-                style: TextStyle(color: Colors.white60),
-              ),
-              color: Colors.red,
-              hoverColor: Colors.blue
-            //elevation: 30,
-          )),
+      body: Column(
+        children: [
+          Center(
+              child: FlatButton(
+                  onPressed: () {
+                    print('console msg');
+                  },
+                  child: Text(
+                    'button text',
+                    style: TextStyle(color: Colors.white60),
+                  ),
+                  color: Colors.red,
+                  hoverColor: Colors.blue
+                //elevation: 30,
+              )),
+        ],
+      ),
 
       floatingActionButton: FloatingActionButton(
         tooltip: 'Press Me',

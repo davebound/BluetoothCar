@@ -73,11 +73,12 @@ class HomeClient extends StatelessWidget {
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(height: 60,),
+                        SizedBox(height: 100,),
                       ]),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
+                        SizedBox(width: 10),
                         FlatButton(
                             onPressed: () {
                               print('clicked left');
@@ -90,9 +91,7 @@ class HomeClient extends StatelessWidget {
                             hoverColor: Colors.blue
                           //elevation: 30,
                         ),
-                        SizedBox(width: 20),
                         Text('0'),
-                        SizedBox(width: 20),
                         FlatButton(
                             onPressed: () {
                               print('clicked right');
@@ -104,7 +103,8 @@ class HomeClient extends StatelessWidget {
                             color: Colors.red,
                             hoverColor: Colors.blue
                           //elevation: 30,
-                        )
+                        ),
+                        SizedBox(width: 10),
                       ]),
                 ],
               ))),
