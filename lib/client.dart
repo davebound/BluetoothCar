@@ -36,13 +36,15 @@ class HomeClient extends StatelessWidget {
                             ),
                             color: Colors.red,
                             hoverColor: Colors.blue
-                          //elevation: 30,
-                        ),
+                            //elevation: 30,
+                            ),
                       ]),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(height: 10,),
+                        SizedBox(
+                          height: 10,
+                        ),
                       ]),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -52,7 +54,9 @@ class HomeClient extends StatelessWidget {
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(height: 10,),
+                        SizedBox(
+                          height: 10,
+                        ),
                       ]),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -67,13 +71,15 @@ class HomeClient extends StatelessWidget {
                             ),
                             color: Colors.red,
                             hoverColor: Colors.blue
-                          //elevation: 30,
-                        ),
+                            //elevation: 30,
+                            ),
                       ]),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        SizedBox(height: 100,),
+                        SizedBox(
+                          height: 100,
+                        ),
                       ]),
                   Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -89,8 +95,8 @@ class HomeClient extends StatelessWidget {
                             ),
                             color: Colors.red,
                             hoverColor: Colors.blue
-                          //elevation: 30,
-                        ),
+                            //elevation: 30,
+                            ),
                         Text('0'),
                         FlatButton(
                             onPressed: () {
@@ -102,8 +108,8 @@ class HomeClient extends StatelessWidget {
                             ),
                             color: Colors.red,
                             hoverColor: Colors.blue
-                          //elevation: 30,
-                        ),
+                            //elevation: 30,
+                            ),
                         SizedBox(width: 10),
                       ]),
                 ],
