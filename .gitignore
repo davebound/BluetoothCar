@@ -50,3 +50,5 @@ android/app/src/debug/gen/com/example/myapp/R.java
 android/app/src/profile/gen/com/example/myapp/BuildConfig.java
 android/app/src/profile/gen/com/example/myapp/Manifest.java
 
+
+!.idea/
